@@ -56,10 +56,10 @@ export default {
 			sites: [
 				// { name: "Eleventy", url: "https://www.11ty.dev/" },
 				// { name: "Speedlify", url: "https://www.speedlify.dev/" },
-				{ name: "Semih", url: "https://www.bysemih.nl/" },
-				{ name: "Eleventy", url: "https://www.bysemih.nl/" },
-				{ name: "Svelte", url: "inquisitive-dusk-26ab89.netlify.app" },
-				{ name: "Eleventy", url: "inquisitive-dusk-26ab89.netlify.app" }
+				{ name: "Semih", url: "https://bysemih.nl/" },
+				{ name: "Svelte", url: "https://inquisitive-dusk-26ab89.netlify.app" },
+				{ name: "Eleventy", url: "https://euphonious-cranachan-a80a4d.netlify.app" },
+				{ name: "Africanair", url: "https://africanair-dev.netlify.app" }
 			],
 		},
 	},

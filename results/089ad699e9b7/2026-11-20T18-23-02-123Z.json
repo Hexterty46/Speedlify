@@ -1,0 +1,22 @@
+{
+  "url": "euphonious-cranachan-a80a4d.netlify.app",
+  "name": "Eleventy",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1795198982123,
+  "date": "2026-11-20T18:23:02.123Z",
+  "runId": "2026-11-20T18-23-01-578Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 869,
+  "error": "INVALID_URL",
+  "errors": [
+    "INVALID_URL",
+    "INVALID_URL",
+    "INVALID_URL"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}
