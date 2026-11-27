@@ -1,0 +1,363 @@
+{
+  "url": "https://cheery-chebakia-549eba.netlify.app/",
+  "name": "Nuxt",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1795768211802,
+  "date": "2026-11-27T08:30:11.802Z",
+  "runId": "2026-11-27T08-30-11-269Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 45993,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cheery-chebakia-549eba.netlify.app/",
+    "finalUrl": "https://cheery-chebakia-549eba.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 75,
+      "best-practices": 100,
+      "seo": 82,
+      "agentic-browsing": 33
+    },
+    "timings": {
+      "fcp": 786,
+      "lcp": 786,
+      "si": 786,
+      "tbt": 0,
+      "tti": 786,
+      "cls": 0.003,
+      "ttfb": 629,
+      "maxPotentialFid": 46,
+      "serverResponseTime": 81,
+      "networkRtt": 0,
+      "networkServerLatency": 29.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 82.2,
+      "elementRenderDelay": 94.2
+    },
+    "weight": {
+      "total": 96944,
+      "requests": 16,
+      "mainDocument": 1385,
+      "byType": {
+        "total": {
+          "bytes": 96292,
+          "requests": 15
+        },
+        "script": {
+          "bytes": 88364,
+          "requests": 7
+        },
+        "other": {
+          "bytes": 4793,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 1750,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 1385,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 252.2,
+      "byGroup": {
+        "scriptEvaluation": 118.5,
+        "other": 98.9,
+        "styleLayout": 15.8,
+        "parseHTML": 7.9,
+        "paintCompositeRender": 5.2,
+        "scriptParseCompile": 3.5,
+        "garbageCollection": 2.5
+      },
+      "bootupMs": 82.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 12,
+      "depth": 4,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 11095.758333333333,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 10,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "document-title",
+          "title": "Document doesn't have a `<title>` element",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "html-has-lang",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "document-title",
+          "title": "Document doesn't have a `<title>` element",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3829.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T08:30:31.560Z",
+      "runtimeMs": 7418.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.5,
+    "elementRenderDelay": 44.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "icon": "Nuxt",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "nuxt",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.46"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8E221QF96TSVVPNDD6XCAE6",
+      "x-powered-by": "Nuxt"
+    },
+    "violations": 5,
+    "passes": 41,
+    "incomplete": 2,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          },
+          {
+            "selector": "#nl-badge-frame >>> html",
+            "snippet": "<html class=\"nl-narrow\" style=\"--nl-vw: 412px; --nl-vh: 823px;\">"
+          }
+        ]
+      },
+      {
+        "id": "document-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Documents must have <title> element to aid in navigation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/document-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          }
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#__nuxt",
+            "snippet": "<div id=\"__nuxt\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "bc0a0ed50bdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Durable\"; fwd=bypass\n\"Netlify Edge\"; fwd=miss; fwd-status=200"
+        }
+      },
+      {
+        "hash": "bc0a0ed50bdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Durable\"; fwd=bypass\n\"Netlify Edge\"; fwd=miss; fwd-status=200"
+        }
+      },
+      {
+        "hash": "bc0a0ed50bdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Durable\"; fwd=bypass\n\"Netlify Edge\"; fwd=miss; fwd-status=200"
+        }
+      },
+      {
+        "hash": "bc0a0ed50bdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Durable\"; fwd=bypass\n\"Netlify Edge\"; fwd=miss; fwd-status=200"
+        }
+      },
+      {
+        "hash": "bc0a0ed50bdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
