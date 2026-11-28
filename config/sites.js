@@ -59,7 +59,7 @@ export default {
 				{ name: "Semih", url: "https://bysemih.nl/" },
 				{ name: "Svelte", url: "https://inquisitive-dusk-26ab89.netlify.app" },
 				{ name: "Eleventy", url: "https://euphonious-cranachan-a80a4d.netlify.app" },
-				{ name: "Africanair", url: "https://africanair-dev.netlify.app" },
+				{ name: "Africanair", url: "https://africanair-dev.netlify.app/kumasi/map" },
 				{ name: "Nuxt", url: "https://cheery-chebakia-549eba.netlify.app/kumasi" }
 			],	
 		},
